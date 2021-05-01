@@ -40,7 +40,7 @@ def promedio(numeros):
     # METODO 2 ==>> bucle for
 
 
-def promedio(numeros):    
+def promedio(numeros):  # Ojo que si definis dos veces la misma función te tira error, fijate de ponerle promedio_2 o algo así  
     contador = 0
     sumatoria = 0
 
@@ -52,7 +52,7 @@ def promedio(numeros):
     
         
 def lista_vacia(numeros):
-    return not numeros
+    return not numeros # Esto te retorna Flace, ojo!
 
 
 def ordenar_sort(lista_numeros):
